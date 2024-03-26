@@ -27,8 +27,9 @@ Test the C Program for the desired output.
 ## Developed by    : SURIYA M
 ## Register Number : 212223110055
 
-## C Program to print process ID and parent Process ID using Linux API system calls
 
+
+## C Program to print process ID and parent Process ID using Linux API system calls
 ~~~
 #include <stdio.h>
 #include <sys/types.h>
@@ -46,12 +47,11 @@ int main(void)
 	printf("The process id of parent function: %d\n",p_process_id);
 	return 0; }
 ~~~
-
 ## OUTPUT
 ![image](https://github.com/Suriya-MD/Linux-Process-API-fork-wait-exec/assets/147120571/0d7994d1-d3b7-43c7-ac91-3dd1c412e17c)
 
-## C Program to create new process using Linux API system calls fork() and exit()
 
+## C Program to create new process using Linux API system calls fork() and exit()
 ~~~
 #include <stdio.h>
 #include <stdlib.h>
@@ -76,7 +76,6 @@ int main() {
     return 0;
 }
 ~~~
-
 ## OUTPUT
 ![image](https://github.com/Suriya-MD/Linux-Process-API-fork-wait-exec/assets/147120571/11b4af21-980f-40cb-a800-d9fe14b66fcb)
 
